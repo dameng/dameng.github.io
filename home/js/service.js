@@ -243,6 +243,8 @@
                             break;
                         }
                     }
+                    var stringValue = trackData.data.toString();
+                    alert(stringValue);
                     var opts = new shipxyMap.TrackOptions();
                     opts.strokeStyle.color = 0x0000ff;
                     opts.pointStyle.strokeStyle.color = 0x0000ff;
